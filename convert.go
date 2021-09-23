@@ -7,7 +7,7 @@ import (
 
 var units = []string{"","Ki","Mi","Gi","Ti","Pi","Ei","Zi"}
 
-// from stack overflow
+// SizeOf from stack overflow
 func SizeOf(size int64) string {
 	s64 := float64(size)
 	for _, unit := range units {
